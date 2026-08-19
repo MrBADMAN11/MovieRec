@@ -1,4 +1,4 @@
-# MovieRec# 🎬 Movie Recommender System
+#🎬 Movie Recommender System
 
 A **machine-learning-powered movie recommendation web application** built with **Python, Flask, Scikit-learn, and the TMDB API**.
 
