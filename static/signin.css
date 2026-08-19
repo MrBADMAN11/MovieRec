@@ -1,0 +1,34 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000000;
+    color: rgb(193, 0, 242);
+    font-family: Monospace, "MATERIAL SYMBOLS ROUNDED";
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px;
+}
