@@ -107,68 +107,6 @@ The system finds the selected movie's position in the dataset, compares its feat
 | **TMDB API**          | Movie information and posters                  |
 | **SQLite**            | User/account data storage                      |
 
-## 📁 Project Structure
-
-```text
-movie-recommender/
-│
-├── app.py
-├── requirements.txt
-├── movies_list.pkl
-├── similarity.pkl
-│
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── signup.html
-│   └── recommendations.html
-│
-├── static/
-│   ├── css/
-│   ├── images/
-│   └── js/
-│
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/movie-recommender.git
-cd movie-recommender
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure TMDB API
-
-Create an API key through **TMDB** and add it to your Flask application configuration.
-
-For example:
-
-```python
-TMDB_API_KEY = "YOUR_API_KEY"
-```
-
-> **Important:** Never upload your API key or other sensitive credentials directly to GitHub. Use environment variables instead.
-
-### 4. Run the Application
-
-```bash
-python app.py
-```
-
-Then open:
-
-```text
-http://127.0.0.1:5000/
-```
 
 ## 📊 Machine Learning Approach
 
